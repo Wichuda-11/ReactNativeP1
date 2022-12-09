@@ -3,13 +3,13 @@ import React from 'react';
 
 const Splash = ({navigation}) => {
     const onPress=() => {
-        navigation.navigate('Home')
+        navigation.navigate('One')
     }
   return (
     <Pressable onPress={onPress}>
-        <View style={{ height: '100%', alignItems: 'center', backgroundColor: '#B0C4DE'}}>
+        <View style={{ height: '100%', alignItems: 'center', backgroundColor: '#FFFFFF'}}>
             <View style={{ flex: 0.95, justifyContent: 'center' }}>
-                <Image source={require('../img/logo.png')} style={{ width: 250, height: 250}}/>
+                <Image source={require('../img/ask2.png')} style={{ width: 250, height:250 }}/>
             </View>
             <View style={{ flex: 0.05 }}>
                 <Text style={{color: 'black'}}>Dodeep.co</Text>
